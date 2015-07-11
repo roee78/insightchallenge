@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="TweetStats/TweetStats.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TweetStats/app.config">
+    <Files>
+      <File FileName="TweetStats/app.config" Line="5" Column="40" />
+      <File FileName="TweetStats/AppSettings.cs" Line="161" Column="3" />
+      <File FileName="TweetStats/Dictionary.cs" Line="8" Column="55" />
+      <File FileName="TweetStats/Program.cs" Line="47" Column="3" />
+      <File FileName="TweetStats/TernaryNode.cs" Line="13" Column="59" />
+      <File FileName="TweetStats/TernaryTree.cs" Line="15" Column="39" />
+      <File FileName="TweetStats/Trie.cs" Line="38" Column="15" />
+      <File FileName="TweetStats/TrieNode.cs" Line="85" Column="3" />
+      <File FileName="TweetStats/TweetReader.cs" Line="103" Column="34" />
+      <File FileName="TweetStats/TweetMedian.cs" Line="62" Column="99" />
+      <File FileName="TweetStats/TweetWriter.cs" Line="71" Column="4" />
+      <File FileName="TweetStats/WordManager.cs" Line="33" Column="61" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

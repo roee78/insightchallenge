@@ -1,0 +1,36 @@
+/Users/roy/Projects/TweetStats/TweetStats/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/roy/Projects/TweetStats/TweetStats/bin/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/TweetStats/TweetStats/bin/Debug/TweetStats.exe
+/Users/roy/Projects/TweetStats/TweetStats/obj/x86/Debug/TweetStats.exe
+/Users/roy/Projects/TweetStats/TweetStats/obj/x86/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/TweetStats copy/TweetStats/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/roy/Projects/TweetStats copy/TweetStats/bin/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/TweetStats copy/TweetStats/bin/Debug/TweetStats.exe
+/Users/roy/Projects/TweetStats copy/TweetStats/obj/x86/Debug/TweetStats.exe
+/Users/roy/Projects/TweetStats copy/TweetStats/obj/x86/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/TweetStats using bytes and creating and passing new byte array/TweetStats/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/roy/Projects/TweetStats using bytes and creating and passing new byte array/TweetStats/obj/x86/Debug/TweetStats.exe
+/Users/roy/Projects/TweetStats using bytes and creating and passing new byte array/TweetStats/obj/x86/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/TweetStats using bytes and creating and passing new byte array/TweetStats/bin/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/TweetStats using bytes and creating and passing new byte array/TweetStats/bin/Debug/TweetStats.exe
+/Users/roy/Projects/TweetStats using bytes and creating and passing new byte array/TweetStats/bin/Debug/TweetStats.exe.config
+/Users/roy/Projects/TweetStats hashtable/TweetStats/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/roy/Projects/TweetStats hashtable/TweetStats/obj/x86/Debug/TweetStats.exe
+/Users/roy/Projects/TweetStats hashtable/TweetStats/obj/x86/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/TweetStats hashtable/TweetStats/bin/Debug/TweetStats.exe.config
+/Users/roy/Projects/TweetStats hashtable/TweetStats/bin/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/TweetStats hashtable/TweetStats/bin/Debug/TweetStats.exe
+/Users/roy/Projects/src/TweetStats hashtable/TweetStats/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/roy/Projects/src/TweetStats hashtable/TweetStats/bin/Debug/TweetStats.exe.config
+/Users/roy/Projects/src/TweetStats hashtable/TweetStats/bin/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/src/TweetStats hashtable/TweetStats/bin/Debug/TweetStats.exe
+/Users/roy/Projects/src/TweetStats hashtable/TweetStats/obj/x86/Debug/TweetStats.exe
+/Users/roy/Projects/src/TweetStats hashtable/TweetStats/obj/x86/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/src/TweetStats hashtable/TweetStats/bin/Debug/BinaryRage.dll
+/Users/roy/Projects/src/TweetStats/TweetStats/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/roy/Projects/src/TweetStats/TweetStats/bin/Debug/TweetStats.exe.config
+/Users/roy/Projects/src/TweetStats/TweetStats/bin/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/src/TweetStats/TweetStats/bin/Debug/TweetStats.exe
+/Users/roy/Projects/src/TweetStats/TweetStats/obj/x86/Debug/TweetStats.exe
+/Users/roy/Projects/src/TweetStats/TweetStats/obj/x86/Debug/TweetStats.exe.mdb
+/Users/roy/Projects/src/TweetStats/TweetStats/bin/Debug/BinaryRage.dll
