@@ -8,14 +8,17 @@ http://www.mono-project.com/download/
 run.sh [options]
 
 **Optional Arguments**</br>
--c     to compile the solution
--ds x  to set a data structure, where x is 0, 1, or 2
--h     to display the usage information</br>
-
+-c&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compiles the solution</br>
+-ds x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sets the data structure, where x is 0, 1, or 2
 * 0 = hashtable &nbsp;&nbsp;(default if argument or value is not supplied)
 * 1 = trie
 * 2 = ternary tree
 
+-h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to display the usage information</br>
+
+Example:<br>
+run.sh -c &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//compiles the solution<br>
+run.sh -ds 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//runs the program using a ternary tree
 
 **Why different data structures?**</br>
 When I first started this project, I started working on the file reading process. I tried a few different ways and tested how fast each one worked. 
