@@ -18,7 +18,7 @@ run.sh [options]
 
 Example:<br>
 run.sh -c &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//compiles the solution<br>
-run.sh -ds 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//runs the program using a ternary tree
+run.sh -ds 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//runs the program using a ternary tree<br><br>
 
 **Why different data structures?**</br>
 When I first started this project, I started working on the file reading process. I tried a few different ways and tested how fast each one worked. 
@@ -67,7 +67,7 @@ This is the solution I came up with.
 I took advantage of the fact that the maximum length of a tweet is 140 characters.  The shortest word is 1 character long.
 So the maximum of words we could have in 1 tweet is 70.  For instance, "a b c d ", and so on.
 I created an array whose size is half the length of the maximum tweet length.  So currently it would be an array of 70.
-But this is configurable.  In app.config, there is a setting, "maxTweetLength", which can be modified, if Twitter should ever decide to increase the limit.
+But this is configurable.  In src/TweetStats/TweetStats/bin/Release/TweetStats.exe.config, there is a setting, "maxTweetLength", which can be modified, if Twitter should ever decide to increase the limit.
 
 Here is how the array is used. Each array index represents a number of unique words. For instance, index 0 represents 1 unique word in a line. index 69 represents 70 unique words in a line.  The values are the number of lines that we've read that have the number of unique words equal to the index + 1. So for instance medianArray[12] = 30 means that there are 30 lines that we've read with 13 unique words in it. 
 
