@@ -116,7 +116,7 @@ namespace TweetStats
 
 					DirectoryInfo info = Directory.GetParent (Directory.GetCurrentDirectory ());
 					if (info.Name == "bin") {
-						srcDir = info.Parent.Parent.Parent.FullName;
+						srcDir = info.Parent.Parent.Parent.Parent.FullName;
 						srcDir += Path.DirectorySeparatorChar; 
 					}
 
