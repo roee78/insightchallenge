@@ -1,18 +1,16 @@
 ###Tweet Stats
 
 **Requirements**<br/>
-You will need to install the mono runtime</br>
-http://www.mono-project.com/docs/advanced/runtime/
-
-You may need to download the compiler and compile the solution on the target machine</br>
-http://www.mono-project.com/download/#download-mac
+You will need to download and install the mono runtime</br>
+http://www.mono-project.com/download/
 
 **Usage**</br>
-run.sh
+run.sh [options]
 
 **Optional Arguments**</br>
--h     to display the help text</br>
--ds x  to choose a data structure, where x is 0, 1, or 2
+-c     to compile the solution
+-ds x  to set a data structure, where x is 0, 1, or 2
+-h     to display the usage information</br>
 
 * 0 = hashtable &nbsp;&nbsp;(default if argument or value is not supplied)
 * 1 = trie

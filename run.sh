@@ -2,18 +2,24 @@
 
 function usage
 {
+    echo
+    echo
+    echo "Usage is: run.sh [options]"
+    echo
+    echo "options:"
+    echo "     -c              Compiles the solution"  
+    echo "     -ds [0,1,2]     Sets the data structure"  
+    echo "                        0 = hash table"
+    echo "                        1 = trie"
+    echo "                        2 = ternary tree"
+    echo "     -h              Displays usage information"  
 	echo
 	echo
-    	echo "You may choose a data structure to store the words. If you don't choose one, it will default to hash table"
+}
 
-	echo
-	echo "Example"
-	echo
-        echo "run.sh -ds 0   =   hash table"
-        echo "run.sh -ds 1   =   trie"
-        echo "run.sh -ds 2   =   ternary tree"
-	echo
-	echo
+function compile
+{
+    xbuild /p:Configuration=Release src/TweetStats/TweetStats.sln
 }
 
 while [ "$1" != "" ]; do
@@ -21,6 +27,9 @@ while [ "$1" != "" ]; do
         -f | --file )           shift
                                 filename=$1
                                 ;;
+	-c | —-compile )        compile
+				exit
+				;;
 	-ds | --dataStructure ) shift
                                 dataStructure=$1
                                 ;;
