@@ -5,7 +5,9 @@ You will need to download and install the mono runtime</br>
 http://www.mono-project.com/download/
 
 **Usage**</br>
-run.sh [options]
+run.sh [options]<br>
+run.sh without any options or with the data structure option provided will start the process. It will read the tweets.txt file inside the tweet_input folder and run both features together, word count and running median.
+Once the process is complete, the output files will be available in the tweet_output folder.
 
 **Optional Arguments**</br>
 -c&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compiles the solution</br>
@@ -20,7 +22,8 @@ Example:<br>
 run.sh -c &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//compiles the solution<br>
 run.sh -ds 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//runs the program using a ternary tree<br><br>
 
-**Why different data structures?**</br>
+
+### Why different data structures?</br>
 When I first started this project, I started working on the file reading process. I tried a few different ways and tested how fast each one worked. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3 file reading methods:**
