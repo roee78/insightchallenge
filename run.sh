@@ -21,7 +21,7 @@ while [ "$1" != "" ]; do
         -f | --file )           shift
                                 filename=$1
                                 ;;
-	-ds | --datastructure ) shift
+	-ds | --dataStructure ) shift
                                 dataStructure=$1
                                 ;;
         -h | --help )           usage
@@ -33,4 +33,4 @@ while [ "$1" != "" ]; do
     shift
 done
 
-mono "./TweetStats/TweetStats/bin/Release/TweetStats.exe" $dataStructure
+mono "./src/TweetStats/TweetStats/bin/Release/TweetStats.exe" $dataStructure
