@@ -42,7 +42,7 @@ namespace TweetStats
 			WordManager.OutputWords();
 			sw.Stop();
 
-			Console.WriteLine (sw.Elapsed);
+			//Console.WriteLine (sw.Elapsed);
 		}
 	}
 }

@@ -32,7 +32,7 @@ namespace TweetStats
 			long oldMemory = GC.GetTotalMemory (true);
 			ReadFile(filePath);
 			long newMemory = GC.GetTotalMemory (true);
-			Console.WriteLine(newMemory - oldMemory);
+			//Console.WriteLine(newMemory - oldMemory);
 		}
 
 		/// <summary>
@@ -102,6 +102,7 @@ namespace TweetStats
 
 						// count the last line as a line even though there is no new line character
 						WordManager.AddNewLine();
+						WordManager.FinishRead();
 					}
 				}
 			}

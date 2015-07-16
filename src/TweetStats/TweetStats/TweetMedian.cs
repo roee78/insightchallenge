@@ -29,15 +29,7 @@ namespace TweetStats
 			medianArray = new ulong[AppSettings.MaxTweetLength / 2];
 			Begin();
 		}
-
-		/// <summary>
-		/// TweetMedian Destructor"/>
-		/// </summary>
-		~TweetMedian()
-		{
-			End ();
-		}
-
+			
 		/// <summary>
 		/// Open file for writing
 		/// </summary>
@@ -53,7 +45,7 @@ namespace TweetStats
 		/// <summary>
 		/// Close the file
 		/// </summary>
-		private void End()
+		public void End()
 		{
 			tw.CloseFile ();
 		}

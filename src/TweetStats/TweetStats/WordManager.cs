@@ -65,6 +65,14 @@ namespace TweetStats
 		}
 
 		/// <summary>
+		/// Signals that we are done reading the file
+		/// </summary>
+		public static void FinishRead ()
+		{
+			median.End ();
+		}
+
+		/// <summary>
 		/// Routes outputting the words to the data structure chosen.
 		/// </summary>
 		public static void OutputWords(){
